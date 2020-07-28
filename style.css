@@ -1,0 +1,95 @@
+body {
+  background-color: #FFFFFF;
+}
+
+.generate-button {
+  background-color: grey;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  float: right;
+}
+
+.generate-button:active {
+  box-shadow: inset -1px -1px 100px -57px #ABABAB, 5px 5px 5px 1px #DDDDDD;
+  -webkit-box-shadow: inset -1px -1px 100px -57px #ABABAB, 5px 5px 5px 1px #DDDDDD;
+  -moz-box-shadow: inset -1px -1px 100px -57px #ABABAB, 5px 5px 5px 1px #DDDDDD;
+  -o-box-shadow: inset -1px -1px 100px -57px #ABABAB, 5px 5px 5px 1px #DDDDDD;
+}
+
+.button-icon {
+  background-image: url("https://s12.postimg.org/gjdlqi2el/loadiconnew.png");
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  float: right;
+}
+
+.button-icon:hover {
+  transition: all 0.1s ease-in-out;
+}
+
+.button-icon-spin {
+  animation: rotation 1s 1;
+  pointer-events: none;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.container {
+  background-color: #FFFFFF;
+  width: 800px;
+  height: 275px;
+  display: block;
+  margin: 100px auto;
+  padding: 25px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 0px 128px -36px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 128px -36px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 0px 128px -36px rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  text-align: center;
+  display: block;
+  padding: 0px 50px;
+}
+
+#color-container {
+  background-color: grey;
+  width: 500px;
+  height: 125px;
+  margin: auto;
+  border-radius: 20px;
+  display: block;
+}
+
+#color-hex {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  float: right;
+  margin: 75px 25px;
+  padding: 5px;
+  border: 1px solid #FFFFFF;
+}
+
+.footer {
+  font-family: 'Rajdhani', sans-serif;
+  font-size: 15px;
+  color: grey;
+  text-align: center;
+}
